@@ -1,0 +1,64 @@
+
+.vh-100 {
+    background-color: pink;
+}
+.cfc1 {
+    background-color: #81a8a6;
+    /* background-image: url(../img/flower3.png);
+    background-position: cover; */
+}
+.cfc2 {
+    background-color: rgb(188, 255, 252);
+}
+.box {
+    width: 80%;
+    /* height: 80%; */
+    margin: 0 auto;
+    
+}
+
+.left-text{
+    color: wheat;
+    
+}
+.left-logos {
+    display: inline-block;
+    margin-top: 200px;
+
+}
+.left-logos-all {
+    margin: 0 auto;
+}
+
+.right-text {
+    padding: 10%;
+    
+}
+.right-text-p {
+    text-align: center;
+}
+.logo {
+    padding-left: 40%;
+
+
+}
+
+.forget-password {
+    text-decoration: none;
+
+}
+.right-text {
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+    
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: #403dff;
+    text-align: center;
+    line-height: 38px;
+    color: antiquewhite;
+    font-size: 20px;
+}

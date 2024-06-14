@@ -1,0 +1,188 @@
+* {
+    color: rgb(56, 56, 56);
+}
+
+.main-seeting {
+    padding: 30px 300px;
+    background: #fff;
+
+}
+.three-img1 {
+    background-image: url(../img/flores_flaticons-02.png);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    border-radius: 50%;
+
+}
+.three-img2 {
+    background-image: url(../img/flores_flaticons-03.png);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    border-radius: 50%;
+
+}
+.three-img3 {
+    background-image: url(../img/flores_flaticons-04.png);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    border-radius: 50%;
+
+}
+.main-text-underline {
+    border: 3px solid rgb(238, 104, 137);
+    border-radius: 3px;
+    width: 80px;
+}
+.goback {
+    color: black;
+}
+
+.nav-container {
+    padding: 0 300px;
+}
+
+.navlogo {
+    height: 80px;
+    width: 56px;
+}
+
+.container-box {
+    background: linear-gradient(#fff6e5, #ffddc7);
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff6e5;
+}
+
+.product {
+    display: flex;
+    text-align: center;
+
+}
+
+.product-description {
+    margin-left: 30px;
+}
+
+.product-count {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.product-price {
+    height: 24px;
+}
+
+.product-img1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../img/flower1.png);
+    background-position: 80% 20%;
+}
+
+.product-img2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../img/flower2.png);
+    background-position: 40% 50%;
+}
+
+.product-img3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../img/flower3.png);
+    background-position: 40% 40%;
+}
+
+.formcheck-box1 {
+    margin: 0 30px;
+}
+
+.hr-mt {
+    margin-top: 20px;
+}
+
+.mb-3.col-6.postal-code {
+    padding-top: 8px;
+}
+
+.count {
+    width: 200px;
+    margin-left: auto;
+}
+
+.count1 {
+    display: flex;
+}
+
+.quantity,
+.subtotal,
+.shipping,
+.total {
+    color: #5f5f5f;
+}
+
+.quantity-num,
+.subtotal-num,
+.shipping-num,
+.total-num {
+    margin-left: auto;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+
+.btn-light {
+    border: 1px solid #3183ff;
+
+}
+
+.btn-primary {
+    margin-left: auto;
+}
+
+.logoimg {
+    width: 83px;
+    height: 120px;
+
+}
+
+footer {
+    background-color: #F9DDCA;
+
+}
+.footer-bottom {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 62, 0);
+}
+
+footer.col-2 mb-3 {
+    margin-left: 50px;
+}
+.footer-bottom>p {
+    color:rgb(241, 99, 104);
+    padding-left: 30px;
+}
+footer.row {
+    padding: 30px;
+
+}
+
+a {
+    text-decoration: none;
+}

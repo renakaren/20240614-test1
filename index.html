@@ -1,19 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20240614-test1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首頁</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/shop-cart.css">
     <!-- Bootstrap icon CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- style 設置 -->
+
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/Renaklogo.png" class="navlogo" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav me-5">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">花藝教學</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">線上花城</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main>
         <!-- 要加入 ratio ratio-16x9 設定才能讓照片維持 16:9 比例  -->
         <!-- 輪播開始 -->
@@ -26,7 +70,279 @@
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./img/flower1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/flower2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/flower3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- 輪播結束 -->
+        <div class="main-text text-center mt-5 mx-5">
+            <h4>夏季盛典</h4>
+            <p>在這個夏天，我們精心挑選花朵，只為讓您的生活增添更多色彩與香氣。</p>
+        </div>
+        <!-- 粉紅短短的線 -->
+        <div class="main-text-underline text-center m-auto"></div>
+
+        <div class="container" style="width: 1520px;">
+            <!-- 三塊無框簡介 -->
+            <div class="three-noborder-box-wrap row mt-5">
+                <div class="three-noborder-box col-4">
+                    <div class="three-img1 m-auto"></div>
+                    <h3 class="text-center m-auto mt-3">關於 RENAK</h3>
+                    <p class="text-center m-auto mt-3">
+                        我們相信，花朵不僅僅是裝飾品，更是傳遞愛與溫暖的媒介。希望藉由我們精心挑選與設計的花藝作品，將自然的美好帶入您的日常生活，為您帶來平靜與喜悅。讓每一朵花都成為您生活中的小確幸，為您的每一天增添色彩與幸福。
+                    </p>
+                    <div class="three-noborder-box-a text-center m-auto mt-2">
+                        <a href="#" class="">了解更多 →</a>
+                    </div>
+                </div>
+                <div class="three-noborder-box col-4">
+                    <div class="three-img1 m-auto"></div>
+                    <h3 class="text-center m-auto mt-3">RENAK 送禮推薦</h3>
+                    <p class="text-center m-auto mt-3">
+                        中、日、韓、法、德各式花藝作品可供選擇，結合精緻包裝，完整傳達送禮人心意。
+                    </p>
+                    <div class="three-noborder-box-a text-center m-auto mt-2">
+                        <a href="#" class="">了解更多 →</a>
+                    </div>
+                </div>
+                <div class="three-noborder-box col-4">
+                    <div class="three-img1 m-auto"></div>
+                    <h3 class="text-center m-auto mt-3">花藝結合身心靈療癒</h3>
+                    <p class="text-center m-auto mt-3">
+                        花朵不僅是視覺上的美觀，多項研究更證實花朵能促進身心靈療癒，點擊下方連結報名 RENAK 花藝療癒體驗，期待透過花藝與您相遇。
+                    </p>
+                    <div class="three-noborder-box-a text-center m-auto mt-2">
+                        <a href="#" class="">了解更多 →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-box text-center m-auto mt-5 row">
+
+                <h2 class="mt-3 col-4" style="font-weight: bold;">盛夏微光，花情流轉</h2>
+                <p class="mt-2 col-8">Celebrate life’s beautiful moments with our exquisite floral creations. Every
+                    petal, every stem is thoughtfully arranged to create stunning displays of natural artistry. From
+                    weddings to everyday delights, our flowers are crafted to evoke emotions and create lasting
+                    impressions. Indulge in the charm and grace of our floral designs, and let nature’s beauty flourish
+                    in your world.</p>
+            </div>
+            <!-- 橫式卡片 -->
+            <div class="card mb-3 m-auto my-5" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://i0.wp.com/dawnflorist.com/wp-content/uploads/2023/10/F6F36DC9-82DE-42BC-A9FB-003D3F884247_0-scaled.jpg?fit=1920%2C2560&ssl=1"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p>RENAK X JUJU</p>
+                            <h4 class="card-title">經典聯名</h4>
+                            <p class="card-text">Renak 與插畫家 JUJU 聯名打造時尚花藝週邊，手提袋、杯套、水壺，各式實用物品，讓 RENAK X JUJU 陪你/妳度過每一天
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">#JUJU #RENAK #實用每一天</small></p>
+                            <hr>
+                            <button type="button" class="btn btn-outline-light w-100"
+                                style="color: rgb(15, 79, 57); border: 2px solid rgb(15, 79, 57);">了解更多
+                                →</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-box text-center m-auto mt-5 row">
+            <p class="mt-2 col-8">Celebrate life’s beautiful moments with our exquisite floral creations. Every
+                petal, every stem is thoughtfully arranged to create stunning displays of natural artistry.</p>
+            <h2 class="mt-3 col-4" style="font-weight: bold;">品牌故事</h2>
+        </div>
+
+
+
+        <!-- 三張卡片開始 -->
+        <div class="three-card-box mx-5 pt-5">
+            <div class="row mt-5">
+                <!-- 1 -->
+                <div class="card col mx-3" style="width: 18rem;">
+                    <img class="card-img-top pt-3" src="./img/flower1.png" alt="Card image cap">
+                    <div class="card-body d-flex-baseline">
+                        <h5 class="card-title" style="font-weight: bold;">藏心</h5>
+                        <p>$1500</p>
+                        <p class="card-text">讓花代替我表達心中最真摯的情意。</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="card col mx-3" style="width: 18rem;">
+                    <img class="card-img-top pt-3" src="./img/flower2.png" alt="Card image cap">
+                    <div class="card-body d-flex-baseline">
+                        <h5 class="card-title" style="font-weight: bold;">幸福御守</h5>
+                        <p>$1800</p>
+                        <p class="card-text">我會默默在這裡等你/妳。</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="card col mx-3" style="width: 18rem;">
+                    <img class="card-img-top pt-3 w-100" src="./img/flower3.png" alt="Card image cap">
+                    <div class="card-body d-flex-baseline">
+                        <h5 class="card-title" style="font-weight: bold;">勇敢寶貝</h5>
+                        <p>$1200</p>
+                        <p class="card-text">無懼挑戰，你就是女神✨</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="three-card-box-a my-4 text-center">
+            <a href="#" class="btn btn-primary m-auto">看更多 →</a>
+        </div>
+        <!-- 緊密卡片 4*2 訂閱區塊-->
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">春季限定</h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+        <!-- 橫式卡片 - 圓形圖 + 橫排文字 -->
+        <div class="three-noborder-box">
+            <div class="three-noborder-box-img rounded-circle">
+                <img src="./img/flower1.png" alt="">
+            </div>
+            <div class="three-noborder-box-text">
+                <h3 class="text-center m-auto mt-3">關於 RENAK</h3>
+                <p class="text-center m-auto mt-3">
+                    我們相信，花朵不僅僅是裝飾品，更是傳遞愛與溫暖的媒介。希望藉由我們精心挑選與設計的花藝作品，將自然的美好帶入您的日常生活，為您帶來平靜與喜悅。讓每一朵花都成為您生活中的小確幸，為您的每一天增添色彩與幸福。
+                </p>
+                <div class="three-noborder-box-a text-center m-auto mt-2">
+                    <a href="#" class="">了解更多 →</a>
+                </div>
+
+                <!-- 地圖 -->
+                <div class="map" style="width: 100%;">
+                    <!-- 地圖上的回饋單 -->
+                    <form class="col-4 col-lg-6 col-md-6 col-sm-10 m-auto p-4"
+                        style="background-color: rgb(255, 240, 220);">
+
+                        <fieldset disabled>
+                            <legend>回饋給我們</legend>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-floating mt-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea2" placeholder="Message">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                        </fieldset>
+
+                </div>
+
+
+
+
+                </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.005372065189!2d120.64832117475007!3d24.171544372479268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469162711fccb7b%3A0xd66d1320493e8190!2z5ou-6ZmMIFNoaWhtbw!5e0!3m2!1szh-TW!2stw!4v1718264019002!5m2!1szh-TW!2stw"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mt-"></iframe>
+
+            </div>
+
+
+
+
     </main>
+    <!-- footer -->
+    <!-- <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mx-0 border-top"> -->
+    <footer class="row py-5 mx-0 border-top">
+        <div class="col-2 mb-3">
+            <!-- logo 圖 -->
+            <img src="./img/Renaklogo.png" class="logoimg" alt="logo">
+            <p>Let's pick some flowers ❤</p>
+            <p class="text-body-secondary">© 2024</p>
+
+        </div>
+        <div class="col-2 mb-3">
+            <h5>更多花</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">新鮮花材製作</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">回收材質專用花盒</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">客製賀卡資訊</a></li>
+
+            </ul>
+        </div>
+
+        <div class="col-2 mb-3">
+            <h5>花朵們</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CANVAS 布品花束</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FORi BOUQUET 花裡花束</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">NAKED 裸花束</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TABLE FLOWER 桌花</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GREEN LIFE 生活花藝課程</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-1 mb-3">
+            <h5>協助您</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">購物須知</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">送花服務</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">常見問題</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">花朵照顧</a></li>
+            </ul>
+        </div>
+
+        <div class="col-3 col-md-4 mb-3">
+            <h5>找我們</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">台中市西屯區</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Xitun Dist., Taichung
+                        City 704 , Taiwan (R.O.C.)</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">營業時間 : MON - SAT 13: 00 -
+                        21:00 / SUN 11:00 - 19:00</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">( 04 ) - 2370381</a></li>
+                <li class="nav-item mb-2"><a href="#"
+                        class="nav-link p-0 text-body-secondary">RENAK.flowershop@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
